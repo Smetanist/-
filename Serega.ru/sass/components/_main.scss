@@ -1,0 +1,136 @@
+@import url('/sass/base/_fonts.scss');
+
+.main {
+    background: #fdf5dd;
+    display: flex;
+    justify-content: center;
+    font-family: 'Multiround';
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 1000px;
+        padding-bottom: 25px;
+    }
+
+    .wrapper {
+        display: flex;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    
+    &__title {
+        
+        font-size: 32px;
+        text-align: center;
+        margin-top: 120px;
+    }
+
+    &__category-search {
+        color: black;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    &__category-search:hover {
+        text-decoration: underline;
+    }
+
+    &__recipe {
+        min-width: 280px;
+        max-width: 1280px;
+        width: auto;
+        text-align: left;
+        padding: 16px 19px 20px;
+        margin-top: 30px;
+        border-radius: 15px;
+        background-color: white;
+    }
+
+    &__title-1 {
+        font-size: 16px;
+        margin-bottom: 5px;
+        color: black;
+        width: 400px
+    }
+
+    &__title-1:hover {
+        text-decoration: underline;
+    }
+
+    &__recipe-img {
+        width: 400px;
+        height: 250px;
+        border-radius: 20px;
+        float: left;
+        padding-right: 10px;
+    }
+
+    &__list-category {
+        position: relative;
+        display: block;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    &__category {
+        outline: 0;
+        color: #666;
+        padding: 0 5px 0 0;
+    }
+
+    &__category:hover {
+        text-decoration: underline;
+    }
+
+    &__subtitle {
+        margin-top: 15px;
+    } 
+
+    &__list {
+        position: relative;
+        display: block;
+        font-size: 14px;
+        margin-top: 15px; 
+    }
+
+    &__list-item {
+        outline: 0;
+        color: black;
+        padding: 0 5px 0 0;
+    }
+
+    &__btn-group {
+        margin-top: 25px;
+        border-radius: 25px;
+    }
+
+    &__btn {
+        margin-right: 10px;
+        padding: 2px 9px;
+        cursor: pointer;
+        font-size: 18px;
+        background: #fdf5dd;
+        border: none;
+    }
+
+    &__btn:hover {
+        text-decoration: underline;
+    }
+
+    &__btn:focus {
+        background-color: orange;
+        font-style: normal;
+        font-weight: normal;
+        border-radius: 3px;
+    }
+
+    //&__btn:active {
+    //    background-color: orange;
+    //    font-style: normal;
+    //    font-weight: normal;
+    //    border-radius: 3px;
+    //}
+    
+}

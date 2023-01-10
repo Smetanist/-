@@ -1,0 +1,59 @@
+.recipeFull {
+    background: #fdf5dd;
+    display: flex;
+    justify-content: center;
+    font-family: 'Multiround';
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 1000px;
+        padding-bottom: 25px;
+    }
+
+    .wrapper {
+        display: flex;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    
+    &__title {
+        
+        font-size: 20px;
+        text-align: center;
+        margin-top: 120px;
+    }
+
+    &__recipe-img {
+        width: 700px;
+        display:block;
+        margin:auto;
+        margin-top: 20px;
+    }
+
+    &__list-category {
+        margin-top: 10px;
+    }
+
+    &__category {
+        outline: 0;
+        color: #666;
+        padding: 0 5px 0 0;
+    }
+
+    &__category:hover {
+        text-decoration: underline;
+    }
+
+    &__subtitle {
+        margin-top: 10px;
+    }
+
+    &__list-item:hover {
+        text-decoration: underline;
+    }
+
+    &__subtitle2 {
+        margin-top: 10px;
+    }
+}
