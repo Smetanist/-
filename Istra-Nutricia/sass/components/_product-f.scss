@@ -1,0 +1,78 @@
+.product-f {
+    font-family: gothampro;
+
+    &__title {
+        color: blue;
+        font-size: 48px;
+        margin-top: 10px;
+    }
+
+    &__section {
+        display: flex;
+    }
+
+    &__img {
+        height: 100%;
+        max-height: 562px;
+        max-width: 562px;
+        -o-object-fit: contain;
+        object-fit: contain;
+        width: 100%;
+    }
+
+    &__info {
+        position: absolute;
+        margin-top: 30px;
+        height: 100%;
+        max-width: 463px;
+        background: var(--white, #fff);
+        border: 2px solid var(--bg, #e6f5ff);
+        border-radius: 12px;
+        box-shadow: 0 5px 14px 0 rgba(176,201,230,.32);
+        padding: 30px 40px;
+        position: sticky;
+        top: 16px;
+    }
+
+    &__info-description {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    &__info-wher {
+        font-size: 18px;
+    }
+
+    &__info-link {
+        margin-top: 10px;
+        align-items: center;
+        border: 2px solid var(--reflex-blue, #001489);
+        border-radius: 12px;
+        box-sizing: border-box;
+        display: flex;
+        height: 52px;
+        justify-content: center;
+        max-width: 182px;
+        padding: 8px 5px;
+        width: 48%;
+    }
+
+    &__info-link-img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    &__feed {
+        max-width: 500px;
+    }
+
+    &__feed-title {
+        color: blue;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    &__feed-text {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,59 @@
+.needs-f {
+    font-family: gothampro;
+
+    &__section {
+        width: 700px;
+    }
+
+    &__title {
+        color: blue;
+        font-size: 38px;
+        margin-top: 30px;
+    }
+
+    &__description {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-size: 24px;
+        color: blue;
+    }
+
+    &__rec {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 25px 20px;
+    }
+
+    &__rec-box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        border-radius: 12px;
+        margin-top: 10px;
+        padding: 33px 0 39px 0;
+        text-align: center;
+        height: auto;
+        transition: all 0.3s;
+    }
+
+    &__rec-box-img {
+        align-self: center;
+        max-width: 300px;
+        border-radius: 12px;
+        margin-bottom: 24px;
+    }
+
+    &__rec-box-title {
+        font-size: 20px;
+        color: black;
+        margin-bottom: 5px;
+    }
+
+    &__rec-box-description {
+        font-size: 14px;
+        color: black;
+    }
+}

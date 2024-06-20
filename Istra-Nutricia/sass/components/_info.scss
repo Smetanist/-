@@ -1,0 +1,264 @@
+.info {
+    font-family: gothampro;
+    margin: auto;
+    max-width: 950px;
+    padding: 80px 0 96px;
+
+    &__title {
+        font-size: 60px;
+        margin-bottom: 50px;
+        text-align: center;
+        color: blue;
+    }
+
+    &__contacts {
+        margin-bottom: 70px;
+    }
+
+    &__contacts-title {
+        font-size: 40px;
+        color: blue;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    &__contacts-box {
+        background-color: rgb(200, 228, 254);
+        border: 1px solid rgb(150, 200, 247);
+        border-radius: 12px;
+        display: flex;
+        gap: 85px;
+        justify-content: flex-start;
+        justify-content: space-between;
+        padding: 64px 0 64px 116px;
+    }
+
+    &__contacts-box-left {
+        max-width: 375px;
+    }
+
+    &__contacts-box-left-title {
+        font-size: 20px;
+        color: blue;
+        margin-bottom: 20px;
+    }
+
+    &__contacts-box-left-title2 {
+        color: #071b38;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    &__contacts-box-left-text {
+        font-size: 16px;
+    }
+
+    &__contacts-box-right {
+        max-width: 375px;
+    }
+
+    &__contacts-box-right-title {
+        font-size: 20px;
+        color: blue;
+        margin-bottom: 20px;
+    }
+
+    &__contacts-box-right-title2 {
+        color: #071b38;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    &__contacts-box-right-link {
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    &__about{
+        margin-bottom: 70px;
+    }
+
+    &__about-title {
+        font-size: 40px;
+        color: blue;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    &__about-box {
+        background-color: rgb(200, 228, 254);
+        border: 1px solid rgb(150, 200, 247);
+        border-radius: 12px;  
+        display: flex;
+        gap: 110px;
+        justify-content: space-between;
+        padding: 66px 66px 50px
+    }
+
+    &__about-box-left {
+        margin: 0 auto;
+        max-width: 225px;
+    }
+
+    &__about-box-left-title {
+        text-align: center;
+        font-size: 30px;
+        color: blue;
+        margin-bottom: 10px;
+        white-space: break-spaces;
+    }
+
+    &__about-box-left-text {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    &__about-box-mid {
+        margin: 0 auto;
+        max-width: 225px;
+    }
+
+    &__about-box-mid-title {
+        text-align: center;
+        font-size: 30px;
+        color: blue;
+        margin-bottom: 10px;
+        white-space: break-spaces;
+    }
+
+    &__about-box-mid-text {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    &__about-box-right {
+        margin: 0 auto;
+        max-width: 225px;
+    }
+
+    &__about-box-right-title {
+        text-align: center;
+        font-size: 30px;
+        color: blue;
+        margin-bottom: 10px;
+        white-space: break-spaces;
+    }
+
+    &__about-box-right-text {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    &__history {
+        margin-bottom: 102px;
+        padding: 0 16px;
+    }
+
+    &__history-title {
+        font-size: 40px;
+        color: blue;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    &__history-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    &__history-wrap-section1 {
+        width: 49%;
+    }
+
+    &__history-wrap-section1-img {
+        border-radius: 50%;
+        height: 277px;
+        object-fit: cover;
+        overflow: hidden;
+        width: 277px;
+    }
+
+    &__history-wrap-section2 {
+        width: 49%;
+    }
+
+    &__history-wrap-section2-box {
+        padding: 23px 33px 0;
+    }
+
+    &__history-wrap-section2-box-title {
+        font-size: 24px;
+        color: blue;
+        margin-bottom: 8px;
+        position: relative;
+    }
+
+    &__history-wrap-section3 {
+        width: 49%;
+    }
+
+    &__history-wrap-section3-box {
+        padding: 23px 33px 0;
+    }
+
+    &__history-wrap-section3-box-title {
+        font-size: 24px;
+        color: blue;
+        margin-bottom: 8px;
+        position: relative;
+    }
+
+    &__history-wrap-section4 {
+        width: 49%;
+    }
+
+    &__history-wrap-section5 {
+        width: 49%;
+    }
+
+    &__history-wrap-section6 {
+        width: 49%;
+    }
+
+    &__history-wrap-section6-box {
+        padding: 23px 33px 0;
+    }
+
+    &__history-wrap-section6-box-title {
+        font-size: 24px;
+        color: blue;
+        margin-bottom: 8px;
+        position: relative;
+    }
+
+    &__history-wrap-section6-img {
+        position: absolute;
+        right: 1px;
+        top: 70%;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        height: 277px;
+        object-fit: cover;
+        overflow: hidden;
+        width: 277px;
+    }
+
+    &__history-wrap-section7 {
+        width: 49%;
+    }
+
+    &__history-wrap-section7-box {
+        padding: 23px 33px 0;
+    }
+
+    &__history-wrap-section7-box-title {
+        font-size: 24px;
+        color: blue;
+        margin-bottom: 8px;
+        position: relative;
+    }
+}

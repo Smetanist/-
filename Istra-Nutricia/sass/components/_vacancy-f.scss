@@ -1,0 +1,66 @@
+.vacancyF {
+    font-family: gothampro;
+
+    &__wrap {
+        display: flex;
+    }
+
+    &__left {
+        width: 75%;
+        max-width: 700px;
+    }
+
+    &__left-title {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    &__left-salary {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    &__left-description {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    &__right {
+        width: 25%;
+        max-width: 400px;
+    }
+
+    &__right-vacancy {
+        box-shadow: 0 2px 12px 0 #2a31371a;
+        padding: 20px;
+        width: 400px;
+        height: auto;
+        position: sticky;
+        margin-top: 20px;
+    }
+
+    &__right-vacancy-img {
+        width: 130px;
+        height: 60px;
+    }
+
+    &__right-vacancy-title {
+        color: black;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    &__right-vacancy-contacts {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    &__right-vacancy-contacts-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__right-vacancy-contacts-box-item {
+        color: black;
+    }
+}

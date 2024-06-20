@@ -1,0 +1,63 @@
+.footer {
+    background-color: blue;
+
+    .container {
+        padding-top: 28px;
+        padding-bottom: 34px;
+    }
+
+    &__link-about {
+        color: white;
+        font-family: gothampro;
+    }
+
+    &__link-about:hover {
+        text-decoration: underline;
+    }
+
+    &__link-IstraNutricia {
+        padding-top: 10px;
+        color: white;
+        font-family: gothampro;
+    }
+
+    &__link-IstraNutricia:hover {
+        text-decoration: underline;
+    }
+
+    &__contact-text {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 11px;
+        text-transform: uppercase;
+        color: #75788a;
+        margin-bottom: 12px;
+        font-family: gothampro;
+    }
+    
+    &__contact-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    &__contact-info-phone {
+        display: block;
+        color: white;
+        font-family: gothampro;
+    }
+
+    &__contact-img {
+        min-height: 37px;
+        width: 92px;
+        height: auto;
+        margin-right: 800px;
+    }
+}

@@ -1,0 +1,36 @@
+.header {
+    background-color: blue;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+    }
+
+    &__navigation-list {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+        margin-right: 70px;
+    }
+
+    &__navigation-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+
+    &__navigation-link {
+        display: inline-block;
+        color: white;
+        margin-right: 70px;
+        font-family: gothampro;
+    }
+
+    &__navigation-link:hover {
+        text-decoration: underline;
+    }
+}

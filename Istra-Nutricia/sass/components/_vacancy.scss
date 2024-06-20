@@ -1,0 +1,43 @@
+.vacancy {
+    font-family: gothampro;
+    min-height: 720px;
+
+    &__title {
+        font-size: 36px;
+        color: blue;
+        margin-top: 40px;
+    }
+
+    &__content {
+        margin-top: 20px;
+    }
+
+    &__content-box {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        padding: 25px 30px;
+        border: 1px solid #e6e6e6;
+        width: 800px;
+    }
+
+    &__content-box-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    &__content-box-lok {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    &__content-box-description {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    &__content-box-btn {
+        font-family: gothampro;
+        cursor: pointer;
+    }
+}
